@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding : 1%;
+}
+
+.bgImg{
+  background-image: url(img/bg.jpg);
+  /* background-size:100% 100%; */
+  background-size: contain;
+}
+
+.LoginContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* padding : 10% 20%; */
+}
+
+.marSTop{
+  margin-top: 15px;
+}
+
+.loginIcon{
+  align-self: center;
+}
+.TableContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding : 3% 3% 1% 3%;
+  /* max-height: 60vh; */
+  /* height : 50vh; */
+}
+.heroContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% auto 0% auto;
+  width: 80%;
+}
+.imgContainer{
+  margin : 2%;
+  cursor: pointer;
+}
+.inputField{
+  min-width: 100% !important;
+}
+.fullWidth{
+  width : 100% !important;
+}
+.subTxt{
+  text-align: left;
+  width: 100%;
+}
+.Active{
+  color: blue;
+}
+
+
+.tableFixHead          { overflow-y: auto; height: 50vh; }
+.tableFixHead thead th { position: sticky; top: 0; }
+
+Table  { width: 100%;}
+th, td { padding: 8px 16px; }
+th     { background:#eee; }
