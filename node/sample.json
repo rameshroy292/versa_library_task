@@ -1,0 +1,48 @@
+//user collection
+
+{ 
+    "_id" : ObjectId("5dfa7a4ce25ca421674d4953"), 
+    "email" : "test@gmail.com", 
+    "password" : "test123"
+}
+
+//list of books
+
+{ 
+    "_id" : ObjectId("5e002b39405727ccd4657c47"), 
+    "bookid" : "151", 
+    "__v" : NumberInt(0), 
+    "author" : "Balaguru", 
+    "name" : "Javascript", 
+    "price" : NumberInt(1000), 
+    "publisher" : "Javascript"
+}
+{ 
+    "_id" : ObjectId("5e002b79405727ccd4657c56"), 
+    "bookid" : "887", 
+    "__v" : NumberInt(0), 
+    "author" : "Mark", 
+    "name" : "Mongo", 
+    "price" : NumberInt(999), 
+    "publisher" : "Python "
+}
+{ 
+    "_id" : ObjectId("5e002ba7405727ccd4657c63"), 
+    "bookid" : "515", 
+    "__v" : NumberInt(0), 
+    "author" : "Facebook open source", 
+    "name" : "React Js", 
+    "price" : NumberInt(1000), 
+    "publisher" : "Facebook"
+}
+{ 
+    "_id" : ObjectId("5e003546405727ccd4657ea3"), 
+    "bookid" : "591", 
+    "__v" : NumberInt(0), 
+    "author" : "balaguru swamy", 
+    "name" : "Basics of c language", 
+    "price" : NumberInt(888), 
+    "publisher" : "tata mc graw hill"
+}
+
+
